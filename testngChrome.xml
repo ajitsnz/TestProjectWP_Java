@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Billing order suite" parallel="classes" thread-count="2" >
+    <test name="ChromeTest">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="tests.KiwiSaverCalculatorTests" />
+        </classes>
+    </test>
+
+</suite>
