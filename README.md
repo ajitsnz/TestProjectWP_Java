@@ -13,9 +13,8 @@ Features :
  
  b) Inline 
 eg 
-{ new User(30, EmploymentStatus.Employed, 0, 0, Frequency.None, RiskProfile.Defensive, 0, KiwiMemberContribution.FourPercent, 82000, 436365)}
-{ new User(45, EmploymentStatus.SelfEmployed, 100000, 90, Frequency.Fortnightly, RiskProfile.Conservative, 290000, KiwiMemberContribution.None, 0, 259581)}
-{ new User(55, EmploymentStatus.NotEmployed, 140000, 10, Frequency.Annually, RiskProfile.Balanced, 200000, KiwiMemberContribution.None, 0, 197679)} 
+==> new User(30, EmploymentStatus.Employed, 0, 0, Frequency.None, RiskProfile.Defensive, 0, KiwiMemberContribution.FourPercent, 82000, 436365)
+
 
 2) Cross Browser 
 - Chrome, firefox, Edge etc.. 
