@@ -12,8 +12,11 @@ Features :
  a) from data file
  
  b) Inline 
-eg 
-==> new User(30, EmploymentStatus.Employed, 0, 0, Frequency.None, RiskProfile.Defensive, 0, KiwiMemberContribution.FourPercent, 82000, 436365)
+eg  User whose Current age is 30 is Employed @ a Salary 82000 p/a, contributes to KiwiSaver @ 4% and chooses a Defensive risk profile can calculate his projected balances at retirement.
+
+==> new User(_currentAge, _employmentStatus, _currentKiwisaverBalance, _voluntaryContributions, _voluntaryContributionsFrequency, _RiskProfile, _savingsGoalAtRetirement, _kiwiMemberContribution, _salary, Expected _projection) 
+
+Example ==> new User(30, EmploymentStatus.Employed, 0, 0, Frequency.None, RiskProfile.Defensive, 0, KiwiMemberContribution.FourPercent, 82000, 436365)
 
 
 2) Cross Browser 
