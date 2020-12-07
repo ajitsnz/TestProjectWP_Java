@@ -35,3 +35,5 @@ Example ==> new User(30, EmploymentStatus.Employed, 0, 0, Frequency.None, RiskPr
 5) Detailed logging & Allure reporting 
 - with screenshots etc.. 
 
+Quick video link - https://www.dropbox.com/s/pqhevytxbonx1te/Java%20WP%20Test%20Project.mp4?dl=0 
+
