@@ -15,21 +15,20 @@ public class User
 	public int salary;
 	public int projection;
 
-	public User(int _currentAge, EmploymentStatus _employmentStatus, int _currentKiwisaverBalance, int _voluntaryContributions, Frequency _voluntaryContributionsFrequency, RiskProfile _RiskProfile, int _savingsGoalAtRetirement, KiwiMemberContribution _kiwiMemberContribution, int _salary, int _projection)
+	public User(int _currentAge, EmploymentStatus _employmentStatus,int _salary, KiwiMemberContribution _kiwiMemberContribution, int _currentKiwisaverBalance, int _voluntaryContributions, Frequency _voluntaryContributionsFrequency, RiskProfile _RiskProfile, int _savingsGoalAtRetirement, int _projection)
 	{
 		currentAge = _currentAge;
 		employmentStatus = _employmentStatus;
-		currentKiwiBalance = _currentKiwisaverBalance;
-		voluntaryContributions = _voluntaryContributions;
-		vcFrequency = _voluntaryContributionsFrequency;
-		riskProfile = _RiskProfile;
-		savingsGoalAtRetirement = _savingsGoalAtRetirement;
-
 		if (_employmentStatus == EmploymentStatus.Employed)
 		{
 			salary = _salary;
 			kiwiMemberContribution = _kiwiMemberContribution;
 		}
+		currentKiwiBalance = _currentKiwisaverBalance;
+		voluntaryContributions = _voluntaryContributions;
+		vcFrequency = _voluntaryContributionsFrequency;
+		riskProfile = _RiskProfile;
+		savingsGoalAtRetirement = _savingsGoalAtRetirement;
 		projection = _projection;
 	}
 

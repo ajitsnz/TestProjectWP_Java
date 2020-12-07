@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Billing order suite" parallel="classes" thread-count="5" >
+<suite name="Test Suite" parallel="classes" thread-count="5" >
     <test name="phantomjsTests">
         <parameter name="browser" value="phantomjs" />
         <classes>

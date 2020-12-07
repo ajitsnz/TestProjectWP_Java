@@ -1,9 +1,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Test Suite" parallel="classes" thread-count="1" >
-    <test name="EdgeTests">
-        <parameter name="browser" value="edge" />
+<suite name="KiwiSaver suite" parallel="classes" thread-count="1" >
+    <test name="ChromeTest">
+        <parameter name="browser" value="chrome" />
         <classes>
             <class name="tests.KiwiSaverCalculatorTests" />
         </classes>
     </test>
+
 </suite>

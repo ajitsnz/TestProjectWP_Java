@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Billing order suite" parallel="classes"
-	thread-count="1">
+<suite name="Test Suite" parallel="classes"
+	thread-count="3">
 	<test name="ChromeTest">
 		<parameter name="browser" value="chrome" />
 		<classes>
